@@ -1,3 +1,11 @@
+Crea il tuo primo progetto React, StriveBooks!
+
+In questo esercizio creerai il tuo negozio di libri personale usando i React Components!
+
+Usa il boilerplate tramite create-react-app per creare la tua React App di base.
+
+Installa bootstrap@4.6.1 e react-bootstrap@1.6.4 nella tua app.
+
 Crea un componente MyNav che renderizzerà un componente react-bootstrap per la navigation bar con i seguenti link: Home, About and Browse.
 
 Nota: non sappiamo ancora come creare una vera navigazione, quindi per il momento usa “#” come proprietà href per ognuno di essi.
