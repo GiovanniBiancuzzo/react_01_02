@@ -1,3 +1,13 @@
+Crea un componente MyNav che renderizzerà un componente react-bootstrap per la navigation bar con i seguenti link: Home, About and Browse.
+
+Nota: non sappiamo ancora come creare una vera navigazione, quindi per il momento usa “#” come proprietà href per ognuno di essi.
+
+Crea un componente MyFooter che renderizzerà un footer per la pagina.
+
+Crea un componente Welcome con un Jumbotron e un sottotitolo per il tuo shop.
+
+Crea un componente Latest Release. Questo componente dovrà leggere un file .json fornito e mostrare le cover dei libri nella pagina.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
