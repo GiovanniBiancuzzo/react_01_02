@@ -16,7 +16,7 @@ class LatestRelease extends Component {
                     {scifi.map((book) => {
                         return (
                             <Col>
-                                <Card>
+                                <Card key={book.asin}>
                                     <Card.Img variant="top" src={book.img} />
                                     <Card.Body>
                                         <Card.Title>{book.title}</Card.Title>
