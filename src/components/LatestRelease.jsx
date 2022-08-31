@@ -2,12 +2,21 @@
 
 import { Component } from "react";
 import { Card, Button, Container, Row, Col } from "react-bootstrap";
-import scifi from "../data/scifi.json";
+// import scifi from "../data/scifi.json";
+
+let genre = this.getState({
+    selectedGenre: "history",
+});
+
+const createGenre = () => {
+    genre = genre + ".json";
+    import gen from `../data/${genre}`;
+};
 
 class LatestRelease extends Component {
-    state = {
-        selectedGenre: scifi, //valore iniziale del genere
-    };
+    // state = {
+    //     selectedGenre: scifi, //valore iniziale del genere
+    // };
 
     render() {
         return (
