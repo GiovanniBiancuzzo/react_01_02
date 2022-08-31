@@ -13,10 +13,10 @@ class LatestRelease extends Component {
         return (
             <Container>
                 <Row wrap>
-                    {scifi.map((book) => {
+                    {scifi.map((book, index) => {
                         return (
                             <Col>
-                                <Card key={book.asin}>
+                                <Card key={index}>
                                     <Card.Img variant="top" src={book.img} />
                                     <Card.Body>
                                         <Card.Title>{book.title}</Card.Title>
